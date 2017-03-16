@@ -63,7 +63,11 @@ To disable explosion in a region, set the flag "explosion" to false. You can set
 * **allowed-enter**: Allow/disallow players from entering a region. Set this flag to true or false.
 * **allowed-leave**: Allow/disallow players from leaving a region. Set this flag to true or false.
 * **whitelist**: Add player to whitelist. Usage: `/region flags set <region-name> whitelist muqsitrayyanxo`
-
+* **fly-mode:** Let players fly in the region
+* * 0 => Shows vanilla behaviour.
+* * 1 => Flight mode enabled.
+* * 2 => Flight mode disabled.
+* * 3 => Flight mode enabled, but is disabled once the player leaves the region.
 #### Reset a flag of a region to default value.
 `/region flags reset <region-name> <flag>`
 
