@@ -71,7 +71,8 @@ To disable explosion in a region, set the flag "explosion" to false. You can set
 * **enderpearl**: Allow/disallow use of ender parks (true/false).
 * **send-chat**: Allow/disallow players to chat (true/false).
 * **receive-chat**: Allow/disallow players from receiving chat (true/false).
-* **game-mode**: Set a region's game-mode. (0, 1, 2, 3)
+* **game-mode**: Set a region's game-mode. (0, 1, 2, 3).
+* **sleep**: Allow or block players from entering beds (true/false).
 #### Reset a flag of a region to default value.
 `/region flags reset <region-name> <flag>`
 
