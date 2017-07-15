@@ -1,17 +1,10 @@
-Welcome to the WorldGuard Tutorial (Port of [WorldGuard for Bukkit!](https://github.com/sk89q/WorldGuard))!
-Here you'll find how you can make use of this feature-rich plugin.
-
-WorldGuard lets you and players guard areas of land against griefers and undesirables, as well as tweak and disable various gameplay features of Minecraft (PocketMine in general).
+WorldGuard lets you and players guard areas of land against griefers and undesirables, as well as tweak and disable various gameplay features of Minecraft.
 
 **Command:** "/region"
-
-**Permission:** ` worldguard.create`, `worldguard.modify`, `worldguard.delete`
 
 **Alias:** "/rg"
 
 ### Creating a region
-If you aren't OP on your server, you must find a way to give yourself the permission: `worldguard.create`. This can be done through permission-management plugins such as PurePerms.
-
 Command: `/region create <region-name>`
 
 Now you will have to select two points to create the region. The region is specified as the area between the two points (cube/cuboid). Congratulations, you've created your first region! You can create as many regions as you like.
